@@ -2,7 +2,7 @@
 
 ## Intructor del curso: Fernando Herrera 
 ### Youtube: https://www.youtube.com/channel/UCuaPTYj15JSkETGnEseaFFg
-## Sitio: https://fernando-herrera.com
+### Sitio: https://fernando-herrera.com
 
 ## Fundamentos de Node
 
@@ -20,7 +20,7 @@
 
     - Nos da información sobre el Sitema Operativo
 
-    - Podemos ver con el los procesos que esta ejecutando el equipo
+    - Con él podemos ver los procesos que esta ejecutando el equipo
 
     - Corre sobre el motor v8 de Google
 
