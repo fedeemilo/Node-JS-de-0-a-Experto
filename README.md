@@ -1,6 +1,6 @@
 # Node.JS de 0 a experto - Transcripción curso de Udemy
 
-![Node JS](D:/Imágenes/node-1.jpg)
+![Node JS](./assets/images/node-1.jpg)
 
 ## Intructor del curso: Fernando Herrera
 
