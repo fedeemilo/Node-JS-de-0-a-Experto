@@ -1,3 +1,6 @@
+// Ciclos de eventos de Node - Ejemplos
+
+// Antes de ejecutar el programa, pensar en que orden se ejecutará cada instrucción
 console.log('Inicio del programa');
 
 setTimeout(function() {
