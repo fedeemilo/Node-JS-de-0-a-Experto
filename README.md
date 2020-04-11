@@ -47,11 +47,9 @@
   - Más de 470 mil paquetes disponibles (el escosistema con más librerías en el mundo)
 
   - Si sabes Javascript, ya conocés la mayor parte de Node
-
+<!-- 
 - ¿Qué es blocking y non-blocking I/O
-
-  -
 
 - ¿Cómo resuelve Node los procesos síncronos y asíncronos?
 
-- Comprender el ciclo de vida de un proceso en Node
+- Comprender el ciclo de vida de un proceso en Node -->
