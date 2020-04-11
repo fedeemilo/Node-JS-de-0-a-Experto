@@ -30,7 +30,7 @@
 
   - Manejo de archivos en FileSystem, cargas simultáneas
 
-  - Servidores locals y remotos con información en tiempo real
+  - Servidores locales y remotos con información en tiempo real
 
   - Conexiones a bases de datos
 
@@ -47,9 +47,11 @@
   - Más de 470 mil paquetes disponibles (el escosistema con más librerías en el mundo)
 
   - Si sabes Javascript, ya conocés la mayor parte de Node
-<!-- 
+
 - ¿Qué es blocking y non-blocking I/O
 
-- ¿Cómo resuelve Node los procesos síncronos y asíncronos?
+  - Blocking I/O: una operación, se dice que es bloqueante ya que bloquea el flujo de ejecución
+    del programa llamante impidiendo que la siguiente instrucción comience hasta que la anterior haya terminado
 
-- Comprender el ciclo de vida de un proceso en Node -->
+  - Non-Blocking I/O: las operaciones no bloqueantes devuelven el control al programa llamante antes de su
+    terminación mientras siguen ejecutando en segundo plano
