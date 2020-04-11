@@ -1,5 +1,7 @@
 # Var vs Let
 
+### Normalmente let y var hacen lo mismo, declaran una variable. Pero la forma en la que esa variable vive, es diferente
+
 ## Var
 
 <p>Cuando utilizamos variables con el nombre <b>var</b> nosotros la podemos renombrar, reutilizar
