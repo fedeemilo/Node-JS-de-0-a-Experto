@@ -10,4 +10,5 @@ no importa en el bloque donde se encuentre</p>
 
 ## Let
 
-<p>Una de las primeras características de una variable inicializada con let</p>
+<p>Una de las primeras características de una variable inicializada con let es que no se puede
+volver a inicializar. Si se le puede cambiar el valor.</p>
