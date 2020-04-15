@@ -10,7 +10,7 @@
 
 ## Fundamentos de Node
 
-- ¿Qué es Node?
+¿Qué es Node?
 
   - Es la forma de escribir Javascript del lado del servidor
 
@@ -24,7 +24,7 @@
 
   - Corre sobre el motor v8 de Google
 
-- ¿Qué puedo hacer con Node?
+¿Qué puedo hacer con Node?
 
   - Uso de Sockets para una comunicación real Cliente-Servidor
 
@@ -36,7 +36,7 @@
 
   - Creación de servidores REST en segundos
 
-- ¿Porqué es tan popular?
+¿Porqué es tan popular?
 
   - Node nos permite crear nuestras propias API's con gran facilidad con la librería Express
 
@@ -48,7 +48,7 @@
 
   - Si sabes Javascript, ya conocés la mayor parte de Node
 
-- ¿Qué es blocking y non-blocking I/O
+¿Qué es blocking y non-blocking I/O
 
   - Blocking I/O: una operación, se dice que es bloqueante ya que bloquea el flujo de ejecución
     del programa llamante impidiendo que la siguiente instrucción comience hasta que la anterior haya terminado
