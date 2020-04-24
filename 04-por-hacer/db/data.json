@@ -1,0 +1,5 @@
+[
+	{ "descripcion": "Despertar a fia", "completado": false },
+	{ "descripcion": "Bailar la macarena", "completado": false},
+	{ "descripcion": "Hacer la tarea", "completado": true }
+]
