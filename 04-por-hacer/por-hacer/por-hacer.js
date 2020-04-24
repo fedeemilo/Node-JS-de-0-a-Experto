@@ -62,7 +62,6 @@ const actualizar = (descripcion, completado) => {
 // Borra la tarea por hacer según la descripción dada
 const borrar = (descripcion) => {
     cargarDB();
-    console.log(descripcion)
 
 	let index = listadoPorHacer.findIndex(
 		(tarea) => tarea.descripcion === descripcion
