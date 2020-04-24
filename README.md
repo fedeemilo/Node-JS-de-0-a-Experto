@@ -44,7 +44,7 @@
 
   - Es sumamente rápido y fácil de configurar
 
-  - Más de 470 mil paquetes disponibles (el escosistema con más librerías en el mundo)
+  - Más de 470 mil paquetes disponibles (el ecosistema con más librerías en el mundo)
 
   - Si sabes Javascript, ya conocés la mayor parte de Node
 
