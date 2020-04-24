@@ -44,24 +44,42 @@ const getListado = () => {
 
 // Actualizar el estado de las tareas por hacer
 const actualizar = (descripcion, completado) => {
-
 	cargarDB();
+
+	let index = listadoPorHacer.findIndex(
+		(tarea) => tarea.descripcion === descripcion
+	);
+
+	if (index >= 0) {
+		listadoPorHacer[index].completado = completado;
+		guardarDB();
+		return true;
+	} else {
+		return false;
+	}
+};
+
+// Borra la tarea por hacer según la descripción dada
+const borrar = (descripcion) => {
+    cargarDB();
+    console.log(descripcion)
 
 	let index = listadoPorHacer.findIndex(
 		(tarea) => tarea.descripcion === descripcion
     );
     
     if (index >= 0) {
-        listadoPorHacer[index].completado = completado;
+        listadoPorHacer.splice(index, 1);
         guardarDB();
-        return true;
+        return 'Tarea eliminada';
     } else {
-        return false;
+        return 'No se encuentra la tarea que desea eliminar.';
     }
 };
 
 module.exports = {
 	crear,
-    getListado,
-    actualizar
+	getListado,
+    actualizar,
+    borrar
 };
